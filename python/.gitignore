@@ -1,0 +1,10 @@
+.DS_STORE
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+.venv
+venv/
+
+db.sqlite3

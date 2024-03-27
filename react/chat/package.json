@@ -1,0 +1,43 @@
+{
+  "name": "chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix"
+  },
+  "dependencies": {
+    "@dicebear/collection": "^7.0.1",
+    "@dicebear/core": "^7.0.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.0",
+    "@types/websocket": "^1.0.5",
+    "dotenv": "^16.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "timeago-react": "^3.0.6",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
